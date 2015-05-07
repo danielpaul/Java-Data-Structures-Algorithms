@@ -1,4 +1,4 @@
-/* Travelling Salesman Problem. Program finds the shortest route possible coveing all the towns. */
+/* Travelling Salesman Problem. Program finds the shortest route possible covering all the towns. */
 
 import java.io.*;
 import java.util.*;
@@ -14,7 +14,7 @@ public class tsp {
 
     /* Read all towns and store in data structure. */
     try {
-      File file = new File("alltowns.txt");
+      File file = new File("1000airports.txt");
       FileReader fileReader = new FileReader(file);
       BufferedReader bufferedReader = new BufferedReader(fileReader);
 
@@ -97,7 +97,7 @@ public class tsp {
         bestSquence = visitSequence;
       }
 
-      System.out.println("Starting town: " + t.name + ". Travelled Distance: " + totalDistance);
+      // System.out.println("Starting town: " + t.name + ". Travelled Distance: " + totalDistance);
 
     }
 
