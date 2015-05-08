@@ -60,6 +60,7 @@ public class tsp {
     }
 
 
+
     /* Calculate all the possible solutions for the shortest route. */
 
     double bestDistance = 0.0;
