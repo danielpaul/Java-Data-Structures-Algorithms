@@ -154,9 +154,25 @@ public class bits {
 
 
 
+  /* Subtract two numbers without using minus. */
+  public static void subtract() {
+
+    int first = 10;
+    int second = 3;
+
+    int result = first + ~second + 1;
+
+    System.out.println("\n 10 - 3 without using a minus: " + result);
+
+  }
+
+
+
   public static void main(String args[]) {
     
     operators();
+
+    subtract();
 
   }
 
