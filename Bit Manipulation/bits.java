@@ -154,11 +154,14 @@ public class bits {
 
 
 
+
   /* Subtract two numbers without using minus. */
   public static void subtract() {
 
     int first = 10;
     int second = 3;
+
+    // Bitwise complement gives you the negative version of a number - 1.
 
     int result = first + ~second + 1;
 
