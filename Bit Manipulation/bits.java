@@ -170,6 +170,28 @@ public class bits {
   }
 
 
+  /* Add two numbers together without using +, -, * or /. */
+  public static int addition(int a, int b) {
+    if(b == 0) {
+      return a;
+    } else {
+      int sum = a^b;
+      int carry = (a&b) << 1;
+      return addition(sum, carry);
+    }
+  }
+
+  public static void add() {
+
+    int first = 5;
+    int second = 10;
+
+    int result = addition(first, second);
+
+    System.out.println("Add two numbers together without using +, -, * or /. 5 + 10 = " + result);
+  }
+
+
 
   public static void main(String args[]) {
     
