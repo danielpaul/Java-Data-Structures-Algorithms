@@ -12,9 +12,9 @@ public class Tree implements Comparable<Tree> {
 
   // PriorityQueue needs to be able to somehow rank the objects in it.
   public int compareTo(Tree object) {
-    if(frequency-object.frequency > 0) { //compare the cumulative frequencies of the tree.
+    if(frequency - object.frequency > 0) { //compare the cumulative frequencies of the tree.
       return 1;
-    } else if(frequency-object.frequency < 0) {
+    } else if(frequency - object.frequency < 0) {
       return -1; //return 1 or -1 depending on whether these frequencies are bigger or smaller.
     } else {
       return 0; //return 0 if they're the same.

@@ -34,7 +34,7 @@ public class Huffman {
         // Print number of times each char appeared.
         System.out.println("'" + word.charAt(i) + "' appeared " + counter[i] + " time" + ((counter[i] > 1) ? "s" : ""));
 
-        // Create a tree with one node and add to priority que.
+        // Create a tree with one node and add to priority queue.
         PQ.add(Tree.growTree(counter[i], word.charAt(i))); // Create a new tree with frequency and char.
       }
 

@@ -2,9 +2,9 @@
 
 ### Concepts
 - [Bit Manipulation](Bit Manipulation/bits.java)
-- Binary Trees
+- [Binary Trees](Binary Trees/Tree.java)
 - Data Compression
-  - Huffman Encoding
+  - [Huffman Encoding](Huffman Encoding/Huggman.java)
 - Quicksort
 - Balanced Binary Trees
   - AVL Trees
